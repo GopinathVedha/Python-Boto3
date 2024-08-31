@@ -1,4 +1,4 @@
-mport boto3
+import boto3
 
 AWS_REGION = "us-east-2"
 EC2_RESOURCE = boto3.resource('ec2', region_name=AWS_REGION)
